@@ -3,8 +3,8 @@ library(rjson)
 
 ####################################### Provide Path and Files Name ###############
 FilePath <- "C:/Research/Sankey-Code-AutomatingforJson/Sankey-Code-AutomatingforJson/"
-LableFile <- "InputFiles/Test3_200_Lables.csv"
-LinksFile <- "InputFiles/Test3_200_Links.csv"
+LableFile <- "InputFiles/Test_200_Lables.csv"
+LinksFile <- "InputFiles/Test_200_Links.csv"
 ###json File Template ################################
 json_data <- fromJSON(file = paste(FilePath,"Template-Json/jsonTemplateForSankey.json", sep =""))
 ###################################################################################
