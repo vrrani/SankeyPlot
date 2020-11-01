@@ -2,7 +2,7 @@ library(plotly)
 library(rjson)
 
 ####################################### Provide Path and Files Name ###############
-FilePath <- "D:/Research/Prof. Olaf Sporns/Data-Shaefer Parcellation/nki_Latest(July2020)/RCode/6. Sankey-Code-AutomatingforJson/"
+FilePath <- "" # Provide Working Directory
 LableFile <- "InputFiles/Test_400_Lables(7to10).csv"
 LinksFile <- "InputFiles/Test_400_Links(7to10).csv"
 ###json File Template ################################
